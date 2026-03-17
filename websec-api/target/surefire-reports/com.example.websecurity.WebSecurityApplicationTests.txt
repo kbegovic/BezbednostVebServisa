@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.websecurity.WebSecurityApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.160 s -- in com.example.websecurity.WebSecurityApplicationTests
