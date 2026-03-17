@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Review</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="centered-page">
+
+    <div class="review-container">
+
+        <div class="back-arrow" onclick="goBack()">
+            ← Back
+        </div>
+
+        <div class="card review-card">
+            <h2>Edit Review</h2>
+
+            <div class="review-info">
+                <strong>Movie:</strong>
+                <span id="movieTitle"></span>
+            </div>
+
+            <div class="review-info">
+                <strong>Created:</strong>
+                <span id="reviewDate"></span>
+            </div>
+
+            <label for="reviewText">Review</label>
+            <textarea id="reviewText" rows="4" placeholder="Write your thoughts..."></textarea>
+
+            <label for="rating">Rating</label>
+            <input type="number" id="rating" min="0" max="10" step="0.1">
+
+            <button onclick="updateReview()">Save Changes</button>
+        </div>
+
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/review.js"></script>
+</body>
+
+</html>
